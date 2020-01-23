@@ -1,0 +1,35 @@
+
+body {
+font-family: Times New Roman;
+}
+
+.v1{
+border-left : 2px ;
+height: 500px;
+position: absolute;
+left : 50%;
+}
+
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+width : 300px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

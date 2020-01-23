@@ -1,0 +1,68 @@
+<html>
+
+
+    <head>
+
+        <!-- importing Bootstrap -->
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <title> login page </title>
+
+        <!-- importing CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+
+        <div style = "width : 100% ; background-color : #f8f8f">
+
+
+          <img src = "gov.jpg" width = "250" height = "250" class = "center"></img>
+           <center><b><h2 style = "Display-1; font-family: tines new roman;"> Ministry Of Textiles </h2></b></center>
+
+
+
+        <form action = "/login" method = "POST">
+
+            <div class = "login jumbotron">
+                <div class = "login-screen">
+
+                    <!-- title for the page -->
+                    <div class = "app-title">
+                        <h1> Login </h1>
+                    </div>
+
+                    <div class = "login-form">
+
+                        <!-- Username field -->
+                        <div class = "control-group">
+
+                            <input type = "text" class = "login-field" value = "" placeholder = "username" name = "username">
+                            <label class = "login-field-icon fui-user" for = "login-name"></label>
+
+                        </div>
+
+                        <!-- Password field -->
+                        <div class="control-group">
+
+                            <input type = "password" class = "login-field" value = "" placeholder = "password" name = "password">
+                            <label class = "login-field-icon fui-lock" for = "login-pass"></label>
+
+                        </div>
+
+                        <!--Submit button -->
+                        <input type="submit" value = "Log in" class = "btn btn-primary btn-large ">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
